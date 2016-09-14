@@ -7,19 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4ABA0B4D1D8944FE00DE8CD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABA0B4C1D8944FE00DE8CD1 /* AppDelegate.swift */; };
-		4ABA0B541D8944FE00DE8CD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ABA0B531D8944FE00DE8CD1 /* Assets.xcassets */; };
+		4ABA0B6B1D8947EE00DE8CD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABA0B6A1D8947EE00DE8CD1 /* AppDelegate.swift */; };
+		4ABA0B6D1D8947EE00DE8CD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABA0B6C1D8947EE00DE8CD1 /* ViewController.swift */; };
+		4ABA0B701D8947EE00DE8CD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ABA0B6E1D8947EE00DE8CD1 /* Main.storyboard */; };
+		4ABA0B721D8947EE00DE8CD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ABA0B711D8947EE00DE8CD1 /* Assets.xcassets */; };
+		4ABA0B751D8947EE00DE8CD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ABA0B731D8947EE00DE8CD1 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4ABA0B491D8944FE00DE8CD1 /* lmxWeibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lmxWeibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4ABA0B4C1D8944FE00DE8CD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4ABA0B531D8944FE00DE8CD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4ABA0B581D8944FE00DE8CD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ABA0B671D8947EE00DE8CD1 /* lmxWeibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lmxWeibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ABA0B6A1D8947EE00DE8CD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4ABA0B6C1D8947EE00DE8CD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4ABA0B6F1D8947EE00DE8CD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4ABA0B711D8947EE00DE8CD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4ABA0B741D8947EE00DE8CD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4ABA0B761D8947EE00DE8CD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4ABA0B461D8944FE00DE8CD1 /* Frameworks */ = {
+		4ABA0B641D8947EE00DE8CD1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,28 +35,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4ABA0B401D8944FE00DE8CD1 = {
+		4ABA0B5E1D8947EE00DE8CD1 = {
 			isa = PBXGroup;
 			children = (
-				4ABA0B4B1D8944FE00DE8CD1 /* lmxWeibo */,
-				4ABA0B4A1D8944FE00DE8CD1 /* Products */,
+				4ABA0B691D8947EE00DE8CD1 /* lmxWeibo */,
+				4ABA0B681D8947EE00DE8CD1 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4ABA0B4A1D8944FE00DE8CD1 /* Products */ = {
+		4ABA0B681D8947EE00DE8CD1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4ABA0B491D8944FE00DE8CD1 /* lmxWeibo.app */,
+				4ABA0B671D8947EE00DE8CD1 /* lmxWeibo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4ABA0B4B1D8944FE00DE8CD1 /* lmxWeibo */ = {
+		4ABA0B691D8947EE00DE8CD1 /* lmxWeibo */ = {
 			isa = PBXGroup;
 			children = (
-				4ABA0B4C1D8944FE00DE8CD1 /* AppDelegate.swift */,
-				4ABA0B531D8944FE00DE8CD1 /* Assets.xcassets */,
-				4ABA0B581D8944FE00DE8CD1 /* Info.plist */,
+				4ABA0B6A1D8947EE00DE8CD1 /* AppDelegate.swift */,
+				4ABA0B6C1D8947EE00DE8CD1 /* ViewController.swift */,
+				4ABA0B6E1D8947EE00DE8CD1 /* Main.storyboard */,
+				4ABA0B711D8947EE00DE8CD1 /* Assets.xcassets */,
+				4ABA0B731D8947EE00DE8CD1 /* LaunchScreen.storyboard */,
+				4ABA0B761D8947EE00DE8CD1 /* Info.plist */,
 			);
 			path = lmxWeibo;
 			sourceTree = "<group>";
@@ -58,13 +67,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4ABA0B481D8944FE00DE8CD1 /* lmxWeibo */ = {
+		4ABA0B661D8947EE00DE8CD1 /* lmxWeibo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4ABA0B5B1D8944FE00DE8CD1 /* Build configuration list for PBXNativeTarget "lmxWeibo" */;
+			buildConfigurationList = 4ABA0B791D8947EE00DE8CD1 /* Build configuration list for PBXNativeTarget "lmxWeibo" */;
 			buildPhases = (
-				4ABA0B451D8944FE00DE8CD1 /* Sources */,
-				4ABA0B461D8944FE00DE8CD1 /* Frameworks */,
-				4ABA0B471D8944FE00DE8CD1 /* Resources */,
+				4ABA0B631D8947EE00DE8CD1 /* Sources */,
+				4ABA0B641D8947EE00DE8CD1 /* Frameworks */,
+				4ABA0B651D8947EE00DE8CD1 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -72,27 +81,26 @@
 			);
 			name = lmxWeibo;
 			productName = lmxWeibo;
-			productReference = 4ABA0B491D8944FE00DE8CD1 /* lmxWeibo.app */;
+			productReference = 4ABA0B671D8947EE00DE8CD1 /* lmxWeibo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4ABA0B411D8944FE00DE8CD1 /* Project object */ = {
+		4ABA0B5F1D8947EE00DE8CD1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = WB;
 				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = lk;
 				TargetAttributes = {
-					4ABA0B481D8944FE00DE8CD1 = {
+					4ABA0B661D8947EE00DE8CD1 = {
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 4ABA0B441D8944FE00DE8CD1 /* Build configuration list for PBXProject "lmxWeibo" */;
+			buildConfigurationList = 4ABA0B621D8947EE00DE8CD1 /* Build configuration list for PBXProject "lmxWeibo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -100,40 +108,62 @@
 				en,
 				Base,
 			);
-			mainGroup = 4ABA0B401D8944FE00DE8CD1;
-			productRefGroup = 4ABA0B4A1D8944FE00DE8CD1 /* Products */;
+			mainGroup = 4ABA0B5E1D8947EE00DE8CD1;
+			productRefGroup = 4ABA0B681D8947EE00DE8CD1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4ABA0B481D8944FE00DE8CD1 /* lmxWeibo */,
+				4ABA0B661D8947EE00DE8CD1 /* lmxWeibo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4ABA0B471D8944FE00DE8CD1 /* Resources */ = {
+		4ABA0B651D8947EE00DE8CD1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4ABA0B541D8944FE00DE8CD1 /* Assets.xcassets in Resources */,
+				4ABA0B751D8947EE00DE8CD1 /* LaunchScreen.storyboard in Resources */,
+				4ABA0B721D8947EE00DE8CD1 /* Assets.xcassets in Resources */,
+				4ABA0B701D8947EE00DE8CD1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4ABA0B451D8944FE00DE8CD1 /* Sources */ = {
+		4ABA0B631D8947EE00DE8CD1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4ABA0B4D1D8944FE00DE8CD1 /* AppDelegate.swift in Sources */,
+				4ABA0B6D1D8947EE00DE8CD1 /* ViewController.swift in Sources */,
+				4ABA0B6B1D8947EE00DE8CD1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		4ABA0B6E1D8947EE00DE8CD1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ABA0B6F1D8947EE00DE8CD1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4ABA0B731D8947EE00DE8CD1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ABA0B741D8947EE00DE8CD1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		4ABA0B591D8944FE00DE8CD1 /* Debug */ = {
+		4ABA0B771D8947EE00DE8CD1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -180,7 +210,7 @@
 			};
 			name = Debug;
 		};
-		4ABA0B5A1D8944FE00DE8CD1 /* Release */ = {
+		4ABA0B781D8947EE00DE8CD1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -220,13 +250,11 @@
 			};
 			name = Release;
 		};
-		4ABA0B5C1D8944FE00DE8CD1 /* Debug */ = {
+		4ABA0B7A1D8947EE00DE8CD1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = lmxWeibo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lk.lmxWeibo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -234,13 +262,11 @@
 			};
 			name = Debug;
 		};
-		4ABA0B5D1D8944FE00DE8CD1 /* Release */ = {
+		4ABA0B7B1D8947EE00DE8CD1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = lmxWeibo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lk.lmxWeibo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -251,24 +277,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4ABA0B441D8944FE00DE8CD1 /* Build configuration list for PBXProject "lmxWeibo" */ = {
+		4ABA0B621D8947EE00DE8CD1 /* Build configuration list for PBXProject "lmxWeibo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4ABA0B591D8944FE00DE8CD1 /* Debug */,
-				4ABA0B5A1D8944FE00DE8CD1 /* Release */,
+				4ABA0B771D8947EE00DE8CD1 /* Debug */,
+				4ABA0B781D8947EE00DE8CD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4ABA0B5B1D8944FE00DE8CD1 /* Build configuration list for PBXNativeTarget "lmxWeibo" */ = {
+		4ABA0B791D8947EE00DE8CD1 /* Build configuration list for PBXNativeTarget "lmxWeibo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4ABA0B5C1D8944FE00DE8CD1 /* Debug */,
-				4ABA0B5D1D8944FE00DE8CD1 /* Release */,
+				4ABA0B7A1D8947EE00DE8CD1 /* Debug */,
+				4ABA0B7B1D8947EE00DE8CD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4ABA0B411D8944FE00DE8CD1 /* Project object */;
+	rootObject = 4ABA0B5F1D8947EE00DE8CD1 /* Project object */;
 }

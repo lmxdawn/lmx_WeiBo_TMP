@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4ABA0B481D8944FE00DE8CD1"
+               BlueprintIdentifier = "4ABA0B661D8947EE00DE8CD1"
                BuildableName = "lmxWeibo.app"
                BlueprintName = "lmxWeibo"
                ReferencedContainer = "container:lmxWeibo.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4ABA0B481D8944FE00DE8CD1"
+            BlueprintIdentifier = "4ABA0B661D8947EE00DE8CD1"
             BuildableName = "lmxWeibo.app"
             BlueprintName = "lmxWeibo"
             ReferencedContainer = "container:lmxWeibo.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4ABA0B481D8944FE00DE8CD1"
+            BlueprintIdentifier = "4ABA0B661D8947EE00DE8CD1"
             BuildableName = "lmxWeibo.app"
             BlueprintName = "lmxWeibo"
             ReferencedContainer = "container:lmxWeibo.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4ABA0B481D8944FE00DE8CD1"
+            BlueprintIdentifier = "4ABA0B661D8947EE00DE8CD1"
             BuildableName = "lmxWeibo.app"
             BlueprintName = "lmxWeibo"
             ReferencedContainer = "container:lmxWeibo.xcodeproj">
